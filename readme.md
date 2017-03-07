@@ -12,3 +12,4 @@ Extra tasks:
 * Simple adaptivity - get the 2- and 3- column layouts to collapse into
 single column
 * Add HTML5 form validation
+
