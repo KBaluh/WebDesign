@@ -328,3 +328,18 @@ html body {
 .section8 .btn-start-earning {
     text-align: center;
 }
+
+.section.footer {
+    padding-bottom: 40px;
+}
+
+.section.footer .links a {
+    padding: 0 10 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.section.footer .links a,
+.section.footer .links a:visited {
+    color: white;
+}
