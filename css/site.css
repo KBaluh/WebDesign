@@ -15,6 +15,12 @@ html body {
     float: right;
 }
 
+.overflow {
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+
 .wh80 {
     width: 80%;
     margin: 0 auto;
@@ -211,4 +217,28 @@ html body {
 .section3 .title,
 .section3 .text {
     text-align: center;
+}
+
+.section6 .table-wrapper table {
+    border-collapse: collapse;
+}
+
+.section6 .table-wrapper table td {
+    border: solid 1px #4d556d;
+    padding: 5px 10px 5px 10px;
+}
+
+.section6 .table-wrapper a {
+    width: 200px;
+    display: block;
+    text-decoration: none;
+}
+
+.section6 .table-wrapper a,
+.section6 .table-wrapper a:visited {
+    color: #78a3d7;
+}
+
+.section6 .table-wrapper .btc {
+    color: #61b77a;
 }
