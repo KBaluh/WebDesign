@@ -242,3 +242,72 @@ html body {
 .section6 .table-wrapper .btc {
     color: #61b77a;
 }
+
+.section-line.grad-green {
+    height: 5px;
+    background: #a3cd8c;
+    background: -moz-linear-gradient(left, #a3cd8c 0%, #2989d8 100%, #207cca 100%, #7da3d6 100%);
+    background: -webkit-linear-gradient(left, #a3cd8c 0%,#2989d8 100%,#207cca 100%,#7da3d6 100%);
+    background: linear-gradient(to right, #a3cd8c 0%,#2989d8 100%,#207cca 100%,#7da3d6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3cd8c', endColorstr='#7da3d6',GradientType=1 );
+}
+
+.section.section7 {
+    margin: 0;
+    padding: 0;
+}
+
+.section7 .background {
+    background: url("../img/bg2.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.section7 .reg-form-wrapper {
+    padding-top: 150px;
+    z-index: 10;
+}
+
+.section7 .reg-form-wrapper .ribbon {
+    background: url("../img/ribbon.png");
+    height: 5px;
+}
+
+.section7 .reg-form {
+    background: white;
+    width: 400px;
+    margin: 0 auto 0 auto;
+}
+
+.section7 .reg-form .container {
+    padding: 25px;
+}
+
+.section7 .reg-form .title {
+    color: #4a4a4a;
+    font-size: 25px;
+    text-align: center;
+}
+
+.section7 .reg-form .fields .control {
+    display: inherit;
+    margin: 15px 0 15px 0;
+    background: #f4f7fb;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    color: #9da7b6;
+}
+
+.section7 .reg-form .btn-submit {
+    background: #7da3d7;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+}
