@@ -1,0 +1,125 @@
+html body {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.link-button {
+    padding: 7px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.link-button:hover,
+.link-button.active {
+    border: solid 1px white;
+    padding: 6px;
+}
+
+.header {
+    margin: 0 50px 0 50px;
+    padding-top: 20px;
+}
+
+.header .logo-wrapper,
+.header .text-wrapper {
+    float: left;
+}
+
+.header .menu-wrapper {
+    float: right;
+}
+
+.header .text-wrapper,
+.header .menu-wrapper {
+    margin-top: 15px;
+}
+
+.header .logo-wrapper {
+    width: 200px;
+}
+
+.header .logo-wrapper .logo {
+    text-decoration: none;
+    text-transform: none;
+}
+
+.header .menu-wrapper ul {
+    margin-left: 0;
+    padding-left: 0;
+    display: inline;
+}
+
+.header .menu-wrapper ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.header .text {
+    font-size: 14px;
+    color: white;
+    padding: 0 10px;
+}
+
+.badge {
+    background: white;
+    color: red;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.header .container {
+    min-width: 900px;
+    margin: 0 auto;
+    width: 900px;
+    height: 100px;
+}
+
+.section1 {
+    background: url("../img/bg1.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 733px;
+}
+
+.section1 .content {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.section1 .content .title {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.section1 .content .text {
+    text-align: center;
+}
+
+.section1 .content .button-wrapper {
+    margin: 25px auto;
+}
+
+.section1 .content .button-wrapper a {
+    background: mediumseagreen;
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 220px;
+    border-radius: 9px;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+}
+
+.section1 .content .button-wrapper a:visited {
+    color: white;
+}
