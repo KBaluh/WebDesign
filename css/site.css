@@ -1,5 +1,4 @@
 html body {
-    width: 1360px;
     margin: 0 auto;
     font-family: 'Circe';
 }
@@ -94,73 +93,22 @@ html body {
     color: white;
 }
 
-.header {
-    margin: 0 50px 0 50px;
-    padding-top: 20px;
-}
-
-.header .link-button {
-    color: white;
-    border-color: white;
-}
-
-.header .logo-wrapper,
-.header .text-wrapper {
-    float: left;
-}
-
-.header .menu-wrapper {
-    float: right;
-}
-
-.header .text-wrapper,
-.header .menu-wrapper {
-    margin-top: 15px;
-}
-
-.header .logo-wrapper {
-    width: 200px;
-}
-
-.header .logo-wrapper .logo {
-    text-decoration: none;
-    text-transform: none;
-}
-
-.header .menu-wrapper ul {
-    margin-left: 0;
-    padding-left: 0;
-    display: inline;
-}
-
-.header .menu-wrapper ul li {
-    list-style-type: none;
-    display: inline;
-}
-
-.header .text {
-    font-size: 14px;
-    color: white;
-    padding: 0 10px;
-}
-
-.header .container {
-    min-width: 900px;
-    margin: 0 auto;
-    width: 900px;
-    height: 100px;
-}
-
 .section {
-    padding: 25px 0 25px 0;
+    padding: 45px 0 45px 0;
 }
 
 .section .title {
     color: white;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 .section .text {
     color: #9da7b6;
+}
+
+.section .button-wrapper {
+    padding-top: 30px;
 }
 
 .section-line {
@@ -169,13 +117,81 @@ html body {
     background: #4f647d;
 }
 
+.section-line.grad-green {
+    height: 5px;
+    background: #a3cd8c;
+    background: -moz-linear-gradient(left, #a3cd8c 0%, #2989d8 100%, #207cca 100%, #7da3d6 100%);
+    background: -webkit-linear-gradient(left, #a3cd8c 0%,#2989d8 100%,#207cca 100%,#7da3d6 100%);
+    background: linear-gradient(to right, #a3cd8c 0%,#2989d8 100%,#207cca 100%,#7da3d6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3cd8c', endColorstr='#7da3d6',GradientType=1 );
+}
+
 .section1 {
+    padding: 0;
+
     background: url("../img/bg1.png") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     min-height: 733px;
+}
+
+.section1 .header {
+    margin: 0 50px 0 50px;
+    padding-top: 20px;
+}
+
+.section1 .header .link-button {
+    color: white;
+    border-color: white;
+}
+
+.section1 .header .logo-wrapper,
+.section1 .header .text-wrapper {
+    float: left;
+}
+
+.section1 .header .menu-wrapper {
+    float: right;
+}
+
+.section1 .header .text-wrapper,
+.section1 .header .menu-wrapper {
+    margin-top: 15px;
+}
+
+.section1 .header .logo-wrapper {
+    width: 200px;
+}
+
+.section1 .header .logo-wrapper .logo {
+    text-decoration: none;
+    text-transform: none;
+}
+
+.section1 .header .menu-wrapper ul {
+    margin-left: 0;
+    padding-left: 0;
+    display: inline;
+}
+
+.section1 .header .menu-wrapper ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.section1 .header .text {
+    font-size: 14px;
+    color: white;
+    padding: 0 10px;
+}
+
+.section1 .header .container {
+    min-width: 900px;
+    margin: 0 auto;
+    width: 900px;
+    height: 100px;
 }
 
 .section1 .content {
@@ -185,13 +201,17 @@ html body {
 }
 
 .section1 .content .title {
-    text-transform: uppercase;
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 25px;
 }
 
 .section1 .content .text {
     text-align: center;
+    color: white;
+}
+
+.section1 .content .button-wrapper {
+    margin-top: 25px;
 }
 
 .section-gradient {
@@ -209,7 +229,6 @@ html body {
 
 .section2 .title {
     color: white;
-    font-size: 18px;
     padding: 10px 0 10px 0;
 }
 
@@ -228,12 +247,20 @@ html body {
     text-align: center;
 }
 
+.section3 .title {
+    font-size: 20px;
+}
+
+.section6 .title-wrapper {
+    margin-bottom: 15px;
+}
+
 .section6 .table-wrapper table {
     border-collapse: collapse;
 }
 
 .section6 .table-wrapper table td {
-    border: solid 1px #4d556d;
+    border: solid 1px #5a6176;
     padding: 5px 10px 5px 10px;
 }
 
@@ -252,13 +279,13 @@ html body {
     color: #61b77a;
 }
 
-.section-line.grad-green {
-    height: 5px;
-    background: #a3cd8c;
-    background: -moz-linear-gradient(left, #a3cd8c 0%, #2989d8 100%, #207cca 100%, #7da3d6 100%);
-    background: -webkit-linear-gradient(left, #a3cd8c 0%,#2989d8 100%,#207cca 100%,#7da3d6 100%);
-    background: linear-gradient(to right, #a3cd8c 0%,#2989d8 100%,#207cca 100%,#7da3d6 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3cd8c', endColorstr='#7da3d6',GradientType=1 );
+.section6 .news-list .news-item {
+    margin-bottom: 10px;
+}
+
+.section6 .news-list .news-item .title {
+    font-size: 18px;
+    text-transform: none;
 }
 
 .section.section7 {
@@ -327,7 +354,7 @@ html body {
 }
 
 .section8 .title {
-    width: 150px;
+    width: 350px;
     margin: 0 auto;
     text-align: center;
 }
