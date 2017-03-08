@@ -66,6 +66,28 @@ html body {
     padding: 5px;
 }
 
+.button-wrapper .btn-start-earning {
+    margin: 25px;
+}
+
+.btn-start-earning {
+    margin: 25px auto;
+}
+
+.btn-start-earning a {
+    background: #a3cd8c;
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 220px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+}
+
+.btn-start-earning a:visited {
+    color: white;
+}
+
 .header {
     margin: 0 50px 0 50px;
     padding-top: 20px;
@@ -164,25 +186,6 @@ html body {
 
 .section1 .content .text {
     text-align: center;
-}
-
-.section1 .content .button-wrapper {
-    margin: 25px auto;
-    display: inline-block;
-}
-
-.section1 .content .button-wrapper a {
-    background: #a3cd8c;
-    text-transform: uppercase;
-    font-size: 24px;
-    width: 220px;
-    border-radius: 9px;
-    text-decoration: none;
-    padding: 10px 25px 10px 25px;
-}
-
-.section1 .content .button-wrapper a:visited {
-    color: white;
 }
 
 .section-gradient {
@@ -310,4 +313,18 @@ html body {
     width: 100%;
     height: 50px;
     font-size: 18px;
+}
+
+.section8 {
+    margin-top: 60px;
+}
+
+.section8 .title {
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section8 .btn-start-earning {
+    text-align: center;
 }
