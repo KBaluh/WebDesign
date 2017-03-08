@@ -108,6 +108,7 @@ html body {
 
 .section1 .content .button-wrapper {
     margin: 25px auto;
+    display: inline-block;
 }
 
 .section1 .content .button-wrapper a {
@@ -122,4 +123,8 @@ html body {
 
 .section1 .content .button-wrapper a:visited {
     color: white;
+}
+
+.section2 {
+    background: steelblue;
 }
