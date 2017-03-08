@@ -7,9 +7,35 @@ html body {
     clear: both;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.wh80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wh33 {
+    width: 33.33%;
+}
+
+.wh50 {
+    width: 50%;
+}
+
+.button-wrapper {
+    padding: 7px 0 7px 0;
+}
+
 .link-button {
     padding: 7px;
-    color: white;
+    color: #a3cd8c;
+    border-color: #a3cd8c;
     font-size: 14px;
     text-decoration: none;
     border-radius: 10px;
@@ -17,13 +43,26 @@ html body {
 
 .link-button:hover,
 .link-button.active {
-    border: solid 1px white;
+    border: solid 1px;
     padding: 6px;
+}
+
+.badge {
+    background: white;
+    color: red;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .header {
     margin: 0 50px 0 50px;
     padding-top: 20px;
+}
+
+.header .link-button {
+    color: white;
+    border-color: white;
 }
 
 .header .logo-wrapper,
@@ -66,19 +105,29 @@ html body {
     padding: 0 10px;
 }
 
-.badge {
-    background: white;
-    color: red;
-    font-size: 14px;
-    border-radius: 8px;
-    padding: 5px;
-}
-
 .header .container {
     min-width: 900px;
     margin: 0 auto;
     width: 900px;
     height: 100px;
+}
+
+.section {
+    padding: 25px 0 25px 0;
+}
+
+.section .title {
+    color: white;
+}
+
+.section .text {
+    color: #9da7b6;
+}
+
+.section-line {
+    height: 1px;
+    width: 100%;
+    background: #4f647d;
 }
 
 .section1 {
@@ -112,17 +161,13 @@ html body {
 }
 
 .section1 .content .button-wrapper a {
-    background: mediumseagreen;
+    background: #a3cd8c;
     text-transform: uppercase;
     font-size: 24px;
     width: 220px;
     border-radius: 9px;
     text-decoration: none;
     padding: 10px 25px 10px 25px;
-}
-
-.button-wrapper {
-    padding: 7px 0 7px 0;
 }
 
 .section1 .content .button-wrapper a:visited {
@@ -135,11 +180,6 @@ html body {
     background: -webkit-linear-gradient(top, #39455f 0%,#48607b 50%,#3b4359 100%,#3b4359 100%);
     background: linear-gradient(to bottom, #39455f 0%,#48607b 50%,#3b4359 100%,#3b4359 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39455f', endColorstr='#3b4359',GradientType=0 );
-}
-
-.section2 {
-    color: white;
-    padding: 25px 0 25px 0;
 }
 
 .section2 .link-button {
@@ -156,27 +196,4 @@ html body {
 .section2 .text {
     color: #9da7b6;
     padding: 10px 0 10px 0;
-}
-
-.section-line {
-    height: 1px;
-    width: 100%;
-    background: #4f647d;
-}
-
-.wh80 {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.wh50 {
-    width: 50%;
-}
-
-.wh50.left {
-    float: left;
-}
-
-.wh50.right {
-    float: right;
 }
