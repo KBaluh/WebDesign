@@ -28,6 +28,11 @@ html body {
     width: 50%;
 }
 
+.padLR10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .button-wrapper {
     padding: 7px 0 7px 0;
 }
@@ -196,4 +201,14 @@ html body {
 .section2 .text {
     color: #9da7b6;
     padding: 10px 0 10px 0;
+}
+
+.section3 .img-wrapper {
+    margin-bottom: 25px;
+}
+
+.section3 .img-wrapper,
+.section3 .title,
+.section3 .text {
+    text-align: center;
 }
