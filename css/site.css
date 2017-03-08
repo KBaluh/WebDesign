@@ -59,6 +59,11 @@ html body {
     padding: 6px;
 }
 
+.link-button,
+.link-button.active {
+    color: #a3cd8c;
+}
+
 .badge {
     background: white;
     color: red;
