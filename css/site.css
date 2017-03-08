@@ -121,10 +121,62 @@ html body {
     padding: 10px 25px 10px 25px;
 }
 
+.button-wrapper {
+    padding: 7px 0 7px 0;
+}
+
 .section1 .content .button-wrapper a:visited {
     color: white;
 }
 
+.section-gradient {
+    background: #39455f;
+    background: -moz-linear-gradient(top, #39455f 0%, #48607b 50%, #3b4359 100%, #3b4359 100%);
+    background: -webkit-linear-gradient(top, #39455f 0%,#48607b 50%,#3b4359 100%,#3b4359 100%);
+    background: linear-gradient(to bottom, #39455f 0%,#48607b 50%,#3b4359 100%,#3b4359 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39455f', endColorstr='#3b4359',GradientType=0 );
+}
+
 .section2 {
-    background: steelblue;
+    color: white;
+    padding: 25px 0 25px 0;
+}
+
+.section2 .link-button {
+    color: #a3cd8c;
+    border-color: #a3cd8c;
+}
+
+.section2 .title {
+    color: white;
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+}
+
+.section2 .text {
+    color: #9da7b6;
+    padding: 10px 0 10px 0;
+}
+
+.section-line {
+    height: 1px;
+    width: 100%;
+    background: #4f647d;
+}
+
+.wh80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wh50 {
+    width: 50%;
+}
+
+.wh50.left {
+    float: left;
+}
+
+.wh50.right {
+    float: right;
 }
