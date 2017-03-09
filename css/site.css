@@ -67,6 +67,10 @@ html body {
     border: solid 1px;
 }
 
+.link-button:hover {
+    filter: brightness(90%);
+}
+
 .link-button,
 .link-button.active {
     color: #a3cd8c;
