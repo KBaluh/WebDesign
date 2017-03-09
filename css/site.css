@@ -43,8 +43,17 @@ html body {
     padding: 7px 0 7px 0;
 }
 
+.button-wrapper .link-button {
+    padding-right: 25px;
+}
+
+.button-wrapper .link-button:hover,
+.button-wrapper .link-button.active {
+    padding: 7px 25px 7px 7px;
+}
+
 .link-button {
-    padding: 7px;
+    padding: 8px;
     color: #a3cd8c;
     border-color: #a3cd8c;
     font-size: 14px;
@@ -54,8 +63,8 @@ html body {
 
 .link-button:hover,
 .link-button.active {
+    padding: 7px;
     border: solid 1px;
-    padding: 6px;
 }
 
 .link-button,
@@ -115,6 +124,12 @@ html body {
 
 .section .button-wrapper {
     padding-top: 30px;
+}
+
+.section .button-wrapper a::after {
+    content: url("../img/arrow.svg");
+    position: absolute;
+    padding-left: 7px;
 }
 
 .section-line {
