@@ -92,6 +92,10 @@ html body {
     margin: 25px auto;
 }
 
+.btn-start-earning:hover {
+    filter: brightness(90%);
+}
+
 .btn-start-earning a {
     background: #a3cd8c;
     text-transform: uppercase;
@@ -379,6 +383,10 @@ html body {
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.section7 .reg-form .btn-submit:hover {
+    filter: brightness(90%);
 }
 
 .section8 {
