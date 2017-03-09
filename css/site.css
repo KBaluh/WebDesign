@@ -222,7 +222,7 @@ html body {
 .section1 .content {
     color: white;
     text-align: center;
-    margin-top: 150px;
+    margin: 35vh auto auto auto;
 }
 
 .section1 .content .title {
